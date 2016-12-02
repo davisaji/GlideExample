@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        Glide.with(this).load("http://goo.gl/gEgYUd").into(imageView);
+        Glide.with(this)
+                .load("http://goo.gl/gEgYUd")
+                .into(imageView);
     }
 }
