@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         Glide.with(MainActivity.this)
-                .load("http://goo.gl/gEgYUd")
+                .load("http://www.rtikbojonegoro.or.id/wp-content/uploads/2015/06/mr.jpg")
                 .thumbnail(0.5f)
                 .crossFade()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
